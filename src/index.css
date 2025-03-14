@@ -22,9 +22,9 @@ body {
   color: var(--color-black);
   background-color: var(--color-white);
 }
-/* .section-container {
+.section-container {
   @apply max-w-screen container 2xl:px-78 mx-auto xl:px-24 px-4 bg-white text-black;
-} */
+}
 
 .section-container-add-products {
   @apply max-w-screen-lg container mx-auto lg:px-24 px-4 bg-white  text-black;
