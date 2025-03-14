@@ -8,7 +8,7 @@ const Navbar = () => {
   // const { user } = useContext(AuthContext);
 
   return (
-    <div className="navbar fixed top-0 left-1/2 transform -translate-x-1/2 w-full shadow-sm z-10 ">
+    <div className="navbar bg-base-100 fixed top-0 left-1/2 transform -translate-x-1/2 w-full shadow-sm z-10 ">
       <div className="navbar-start">
         <div className="dropdown">
           {/* <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -58,7 +58,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="DormDeals Logo"
-            className="h-6 lg:h-8 pr-1 mr-2"
+            className="h-6 lg:h-8 pr-1 ml-8"
           />
           <span className="font-bold hidden sm:block">DormDeals</span>
         </a>
