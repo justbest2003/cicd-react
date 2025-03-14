@@ -23,11 +23,11 @@ body {
   background-color: var(--color-white);
 }
 .section-container {
-  @apply max-w-screen container 2xl:px-78 mx-auto xl:px-24 px-4 bg-white text-black;
+  @apply max-w-screen-2xl container mx-auto xl:px-24 px-4;
 }
 
 .section-container-add-products {
-  @apply max-w-screen-lg container mx-auto lg:px-24 px-4 bg-white  text-black;
+  @apply max-w-screen-lg container mx-auto lg:px-24 px-4 bg-white text-black;
 }
 
 @layer components {
